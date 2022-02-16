@@ -265,7 +265,7 @@ footer{
         grid-column-end: 11;
     }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
     *{
         text-align: start;
     }
