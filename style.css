@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+/* Image fitting */
+img {
+    object-fit: contain;
+}
 /* Body */
 body{
     text-align: center;
@@ -75,10 +79,14 @@ header a:hover, .ready-community a:hover{
     padding: 30px 20px 0px;
     margin: 0 0 30px;
 }
+
 #header-nav-link{
     background: white;
     color: var(--Very-Dark-Cyan);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header hero */
@@ -113,15 +121,17 @@ header a:hover, .ready-community a:hover{
     color: white;
 }
 .hero-img{
-    background-image: url("images/illustration-mockups.svg");
-    background-size: 100% 100%;
     width: 100%;
     max-width: 700px;
     height: 60vh;
     min-height: 450px;
     margin: 20px auto;
+    object-fit: contain;
 }
-
+.hero-img-inside {
+    height: 100%;
+    width: 100%;
+}
 /* Main */
 main{
     padding: 100px 10px 200px;
