@@ -61,6 +61,7 @@ a{
     background-image: url("images/bg-hero-desktop.svg");
     background-size: cover;
     min-width: 350px;
+    height: fit-content;
 }
 header a:hover, .ready-community a:hover{
     opacity: 0.8;
@@ -117,6 +118,7 @@ header a:hover, .ready-community a:hover{
     width: 100%;
     max-width: 700px;
     height: 60vh;
+    min-height: 450px;
     margin: 20px auto;
 }
 
@@ -153,10 +155,11 @@ main{
     max-width: 700px;
 }
 .main-row-img{
-    width: 50%;
-    height: 50vh;
+    width: 100%;
+    height: 45vh;
     margin: 20px 0px;
     max-width: 700px;
+    min-height: 300px;
 }
 
 /* Footer */
@@ -310,6 +313,9 @@ footer{
     }
     .main-row:nth-child(odd){
         flex-direction: row-reverse;
+    }
+    .main-row-img{
+        width: 50%;
     }
 
     /* Footer links */
