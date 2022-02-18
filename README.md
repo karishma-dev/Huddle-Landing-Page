@@ -29,6 +29,7 @@ Users should be able to:
 
 - Solution URL: [https://github.com/Krrish105/Huddle-Landing-Page](https://github.com/Krrish105/Huddle-Landing-Page)
 - Live Site URL: [https://krrish105.github.io/Huddle-Landing-Page/](https://krrish105.github.io/Huddle-Landing-Page/)
+- Live Site URL (by Ankit Dwivedi): [https://iamankitdwivedi.github.io/Huddle-Landing-Page/](https://iamankitdwivedi.github.io/Huddle-Landing-Page/)
 
 ## My process
 
