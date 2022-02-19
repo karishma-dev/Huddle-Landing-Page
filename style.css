@@ -249,6 +249,7 @@ footer{
     word-spacing: 0.5rem;
     padding: 5px 10px;
     background-color: rgb(241, 227, 245);
+    min-width: 350px;
 }
 .attribution a { 
     color: hsl(229, 84%, 10%); 
